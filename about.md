@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Vinit Kumar
+title: About Kyne0116
 ---
 
-Your introduction here
+Working and living in Zhengzhou, Henan, China.

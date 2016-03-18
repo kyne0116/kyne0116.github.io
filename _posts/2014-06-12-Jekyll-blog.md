@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using What You Already Have"
+title: "Jekyll 主页"
 date: 2014-06-12
 comments: true
 categories:

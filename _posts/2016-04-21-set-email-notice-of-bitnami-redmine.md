@@ -17,35 +17,39 @@ production:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: smtp.exmail.qq.com
-      port: 25
-      domain: exmail.qq.com
+      address: "smtp.qq.com" 
+      port: "465" 
+      ssl: true
+      enable_starttls_auto: true
+      domain: "smtp.qq.com" 
       authentication: :login
-      user_name: dev@simbest.com.cn
-      password: 123321
+      user_name: "simbest@foxmail.com" 
+      password: "xxxx"
 # specific configuration options for development environment
 # that overrides the default ones
 development:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: smtp.exmail.qq.com
-      port: 25
-      domain: exmail.qq.com
+      address: "smtp.qq.com" 
+      port: "465" 
+      ssl: true
+      enable_starttls_auto: true
+      domain: "smtp.qq.com" 
       authentication: :login
-      user_name: dev@simbest.com.cn
-      password: 123321
+      user_name: "simbest@foxmail.com" 
+      password: "xxxx"
 ```
 
 ## 注意：
 
 一个:需要后跟一个空格，两个: :无需后跟空格
 
-在配置完毕以后重启apache
+在配置完毕以后重启redmine
 
 ```
 $ cd /opt/bitnami
-$ sudo ./ctlscript.sh restart apache
+$ sudo ./ctlscript.sh restart 
 ```
 
 这个ctlscript.sh脚本的用法有一些这些参数

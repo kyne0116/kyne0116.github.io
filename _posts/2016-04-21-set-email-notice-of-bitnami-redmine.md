@@ -53,6 +53,7 @@ $ sudo ./ctlscript.sh restart
 ```
 
 这个ctlscript.sh脚本的用法有一些这些参数
+
 ```
 usage: ./ctlscript.sh help
        ./ctlscript.sh (start|stop|restart|status)
